@@ -1,0 +1,63 @@
+
+
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+		"http://www.springframework.org/dtd/spring-beans.dtd">
+		
+		
+<beans>
+<bean id="t" class="beans.Test" singleton="true">
+
+<!-- <property name="name" >
+
+ <value>Tajmahal</value>
+ </property> 
+ 
+ this call is for
+ public void setName(String name) {
+	this.name = name;
+}*/
+ -->
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ <!--   <constructor-arg value="ganesh" type="String">
+   </constructor-arg>
+   <constructor-arg value="123" type="int">
+   
+</constructor-arg>
+-->
+
+
+
+
+
+
+
+ <!--  
+<constructor-arg value="ganesh" type="java.lang.String" index="0"/>
+<constructor-arg value="23" type="int" index="1"/>
+<constructor-arg value="ganesh@gmail.com" type="java.lang.String" index="2"/>
+
+this call the
+Test(String name,int age,String email){
+		this.name=name;
+	
+		this.age=age;
+		this.email=email;
+	}
+-->
+
+
+
+
+
+
+</bean>
+</beans>

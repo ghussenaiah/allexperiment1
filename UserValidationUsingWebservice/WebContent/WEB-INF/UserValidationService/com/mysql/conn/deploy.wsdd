@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Use this file to deploy some handlers/chains and services      --><!-- Two ways to do this:                                           --><!--   java org.apache.axis.client.AdminClient deploy.wsdd          --><!--      after the axis server is running                          --><!-- or                                                             --><!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   --><!--      from the same directory that the Axis engine runs         --><deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from UserValidationService WSDL service -->
+
+  <service name="UserValidation" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://conn.mysql.com"/>
+      <parameter name="wsdlServiceElement" value="UserValidationService"/>
+      <parameter name="schemaQualified" value="http://conn.mysql.com"/>
+      <parameter name="wsdlServicePort" value="UserValidation"/>
+      <parameter name="className" value="com.mysql.conn.UserValidation"/>
+      <parameter name="wsdlPortType" value="UserValidation"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation xmlns:operNS="http://conn.mysql.com" xmlns:retNS="http://conn.mysql.com" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="loginUser" qname="operNS:loginUser" returnQName="retNS:loginUserReturn" returnType="rtns:string" soapAction="">
+        <parameter xmlns:pns="http://conn.mysql.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:UserName" type="tns:string"/>
+        <parameter xmlns:pns="http://conn.mysql.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:PassWord" type="tns:string"/>
+      </operation>
+      <parameter name="allowedMethods" value="loginUser"/>
+
+  </service>
+</deployment>

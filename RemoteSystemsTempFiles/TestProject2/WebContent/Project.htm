@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<script>
+function ValidateContactForm6()
+{
+    var pr12 = document.ContactForm6.prodesc;
+    var vam12 = document.ContactForm6.vam;
+    var owner12 = document.ContactForm6.owner;
+    if (pr12.value == "")
+    {
+        window.alert("Please enter Project description.");
+        pr12.focus();
+        return false;
+    }
+    
+    if (vam12.value == "")
+    {
+        window.alert("Please enter vam details.");
+        vam12.focus();
+        return false;
+    }
+    if (owner12.value == "")
+    {
+        window.alert("Please enter owner details.");
+        owner12.focus();
+        return false;
+    }
+   return true;
+   
+}
+</script>
+</head>
+<body bgcolor="#7FFFD4">
+<form action="api/p4/p5" method="POST" name="ContactForm6" onsubmit="return ValidateContactForm6();">
+       <fieldset>
+          <legend><strong>Project Details</strong></legend>
+        
+          
+ Project Description :​<textarea id="txtArea" rows="5" cols="20" name="prodesc"></textarea><br/><br/>
+            VAM :<input type="text" name="vam" ><br/><br/> 
+          Owner :<input type="text" name="owner" ><br/><br/> 
+             <input type=submit value="submit"/>
+  <input type="reset" value="clear" >
+             
+             
+           
+      
+       </fieldset>
+    </form>
+</body>
+</html>

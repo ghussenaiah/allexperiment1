@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://conn.mysql.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://conn.mysql.com" xmlns:intf="http://conn.mysql.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://conn.mysql.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="loginUser">
+    <complexType>
+     <sequence>
+      <element name="UserName" type="xsd:string"/>
+      <element name="PassWord" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="loginUserResponse">
+    <complexType>
+     <sequence>
+      <element name="loginUserReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="loginUserResponse">
+
+      <wsdl:part element="impl:loginUserResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="loginUserRequest">
+
+      <wsdl:part element="impl:loginUser" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="UserValidation">
+
+      <wsdl:operation name="loginUser">
+
+         <wsdl:input message="impl:loginUserRequest" name="loginUserRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:loginUserResponse" name="loginUserResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="UserValidationSoapBinding" type="impl:UserValidation">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="loginUser">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="loginUserRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="loginUserResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="UserValidationService">
+
+      <wsdl:port binding="impl:UserValidationSoapBinding" name="UserValidation">
+
+         <wsdlsoap:address location="http://localhost:9091/UserValidationUsingWebservice/services/UserValidation"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

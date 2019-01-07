@@ -1,0 +1,271 @@
+2016-08-10 21:31:19,237 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\pom.xml
+2016-08-10 21:31:25,957 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.first.maven:SimpleApp:0.0.1-SNAPSHOT @ C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\pom.xml.
+2016-08-10 21:31:27,987 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleApp/src/main/java
+2016-08-10 21:31:27,997 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleApp/src/test/java
+2016-08-10 21:31:29,793 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 10 sec
+2016-08-10 21:31:31,543 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.first.maven:SimpleApp:0.0.1-SNAPSHOT @ C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\pom.xml.
+2016-08-10 21:31:32,723 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.first.maven:SimpleApp:0.0.1-SNAPSHOT @ C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\pom.xml.
+2016-08-10 21:31:32,993 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-10 21:31:32,993 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\src\main\resources
+2016-08-10 21:31:32,993 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-10 21:31:33,003 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\src\test\resources
+2016-08-10 21:31:34,173 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.first.maven:SimpleApp:0.0.1-SNAPSHOT @ C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\pom.xml.
+2016-08-10 21:31:34,633 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-10 21:31:34,633 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\src\main\resources
+2016-08-10 21:31:34,633 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-10 21:31:34,633 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\src\test\resources
+2016-08-10 21:31:51,033 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-10 21:31:51,033 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\src\main\resources
+2016-08-10 21:31:51,043 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-10 21:31:51,043 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\src\test\resources
+2016-08-10 22:08:06,978 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-10 22:08:06,993 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\src\main\resources
+2016-08-10 22:08:06,993 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-10 22:08:06,993 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\src\test\resources
+2016-08-10 22:09:21,281 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-10 22:09:21,281 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\src\main\resources
+2016-08-10 22:09:21,296 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-10 22:09:21,296 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\src\test\resources
+2016-08-10 22:09:53,265 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 22:10:01,049 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp
+2016-08-10 22:10:01,049 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2016-08-10 22:10:18,309 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 22:10:23,909 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp
+2016-08-10 22:10:23,909 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2016-08-10 22:11:07,893 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp
+2016-08-10 22:11:07,893 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2016-08-10 22:11:10,319 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-10 22:11:10,334 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\src\main\resources
+2016-08-10 22:11:10,350 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-10 22:11:10,350 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\src\test\resources
+2016-08-10 22:11:19,023 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp
+2016-08-10 22:11:19,023 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2016-08-10 22:11:48,294 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 22:11:55,127 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp
+2016-08-10 22:11:55,143 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B compile
+2016-08-10 22:12:20,700 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 22:12:23,727 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp
+2016-08-10 22:12:23,727 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2016-08-10 22:13:19,283 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 22:13:24,681 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp
+2016-08-10 22:13:24,697 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2016-08-10 22:13:37,624 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 22:13:42,038 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp
+2016-08-10 22:13:42,054 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2016-08-10 22:14:55,299 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 22:15:05,751 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp
+2016-08-10 22:15:05,782 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B eclipse:eclipse
+2016-08-10 22:18:00,697 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp
+2016-08-10 22:18:00,714 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2016-08-10 22:18:05,447 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.first.maven:SimpleApp:0.0.1-SNAPSHOT @ C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\pom.xml.
+2016-08-10 22:18:05,717 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-10 22:18:05,732 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\src\main\resources
+2016-08-10 22:18:05,749 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-08-10 22:18:05,749 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp\src\test\resources
+2016-08-10 22:18:28,812 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 22:18:37,540 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp
+2016-08-10 22:18:37,540 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B eclipse:clean
+2016-08-10 22:18:59,233 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 22:19:05,601 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp
+2016-08-10 22:19:05,623 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B eclipse:eclipse
+2016-08-10 22:19:35,342 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 22:19:39,082 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleApp
+2016-08-10 22:19:39,102 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2016-08-10 22:40:29,377 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\pom.xml
+2016-08-10 22:40:29,884 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.web.app:SimpleWebApp:0.0.1-SNAPSHOT @ C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\pom.xml.
+2016-08-10 22:40:32,762 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleWebApp/src/main/java
+2016-08-10 22:40:32,787 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SimpleWebApp/src/main/resources
+2016-08-10 22:40:32,807 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleWebApp/src/test/java
+2016-08-10 22:40:33,167 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.web.app:SimpleWebApp:0.0.1-SNAPSHOT @ C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\pom.xml.
+2016-08-10 22:40:38,799 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 9 sec
+2016-08-10 22:40:40,777 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.web.app:SimpleWebApp:0.0.1-SNAPSHOT @ C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\pom.xml.
+2016-08-10 22:40:40,994 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 22:40:41,102 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 22:40:41,114 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 22:40:41,132 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 22:46:05,227 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 22:46:05,267 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 22:46:05,287 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 22:46:05,307 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 22:47:01,163 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 22:47:01,170 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 22:47:01,173 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 22:47:01,188 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 22:47:23,063 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 22:47:23,075 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 22:47:23,085 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 22:47:23,095 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:00:41,656 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.web.app:SimpleWebApp:0.0.1-SNAPSHOT @ C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\pom.xml.
+2016-08-10 23:00:42,378 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/servlet/servlet-api/3.0-alpha-1/servlet-api-3.0-alpha-1.pom
+2016-08-10 23:00:42,946 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/servlet/servlet-api/3.0-alpha-1/servlet-api-3.0-alpha-1.pom
+2016-08-10 23:00:43,258 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/api/api/1/api-1.pom
+2016-08-10 23:00:43,896 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/api/api/1/api-1.pom
+2016-08-10 23:00:44,291 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/glassfish/pom/2/pom-2.pom
+2016-08-10 23:00:44,866 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/glassfish/pom/2/pom-2.pom
+2016-08-10 23:00:45,178 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/servlet/servlet-api/3.0-alpha-1/servlet-api-3.0-alpha-1.jar
+2016-08-10 23:00:46,636 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/servlet/servlet-api/3.0-alpha-1/servlet-api-3.0-alpha-1.jar
+2016-08-10 23:00:47,066 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:00:47,076 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:00:47,081 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:00:47,086 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:00:47,103 [Worker-11] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SimpleWebApp
+2016-08-10 23:00:47,106 [Worker-11] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SimpleWebApp
+2016-08-10 23:00:47,118 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:00:48,461 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:00:48,468 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:00:48,468 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:00:48,473 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:02:39,055 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:02:39,063 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:02:39,065 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:02:39,075 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:03:21,416 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:03:21,436 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:03:21,451 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:03:21,473 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:03:29,081 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:03:29,088 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:03:29,091 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:03:29,116 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:05:05,285 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:05:05,295 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:05:05,302 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:05:05,315 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:07:19,415 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cocoon/cocoon-22-archetype-webapp/maven-metadata.xml
+2016-08-10 23:07:21,470 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cocoon/cocoon-22-archetype-webapp/maven-metadata.xml
+2016-08-10 23:07:21,820 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cocoon/cocoon-22-archetype-webapp/1.0.0/cocoon-22-archetype-webapp-1.0.0.jar
+2016-08-10 23:07:22,668 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cocoon/cocoon-22-archetype-webapp/1.0.0/cocoon-22-archetype-webapp-1.0.0.jar
+2016-08-10 23:07:40,646 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cocoon/cocoon-22-archetype-webapp/1.0.0/cocoon-22-archetype-webapp-1.0.0.pom
+2016-08-10 23:07:41,351 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cocoon/cocoon-22-archetype-webapp/1.0.0/cocoon-22-archetype-webapp-1.0.0.pom
+2016-08-10 23:07:41,586 [pool-4-thread-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file:///C:/Users/DavidHusen/.m2/repository/org/apache/cocoon/cocoon-22-archetype-webapp/1.0.0/cocoon-22-archetype-webapp-1.0.0.jar
+2016-08-10 23:07:42,196 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\pom.xml
+2016-08-10 23:07:42,466 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.web.app:SimpleWebApp:0.0.1-SNAPSHOT @ C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\pom.xml.
+2016-08-10 23:07:42,618 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleWebApp/src/main/java
+2016-08-10 23:07:42,623 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SimpleWebApp/src/main/resources
+2016-08-10 23:07:42,628 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SimpleWebApp/src/test/java
+2016-08-10 23:07:43,188 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2016-08-10 23:07:43,693 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.web.app:SimpleWebApp:0.0.1-SNAPSHOT @ C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\pom.xml.
+2016-08-10 23:07:44,051 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.7/maven-jetty-plugin-6.1.7.pom
+2016-08-10 23:07:47,068 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.7/maven-jetty-plugin-6.1.7.pom
+2016-08-10 23:07:47,503 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mortbay/jetty/project/6.1.7/project-6.1.7.pom
+2016-08-10 23:07:49,583 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mortbay/jetty/project/6.1.7/project-6.1.7.pom
+2016-08-10 23:07:53,086 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.7/maven-jetty-plugin-6.1.7.jar
+2016-08-10 23:07:57,833 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.7/maven-jetty-plugin-6.1.7.jar
+2016-08-10 23:07:58,508 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:07:58,521 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:07:58,528 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:07:58,536 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:07:59,018 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.web.app:SimpleWebApp:0.0.1-SNAPSHOT @ C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\pom.xml.
+2016-08-10 23:07:59,171 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:07:59,176 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:07:59,186 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:07:59,191 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:08:00,236 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.web.app:SimpleWebApp:0.0.1-SNAPSHOT @ C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\pom.xml.
+2016-08-10 23:08:01,219 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:08:01,234 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:08:01,244 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:08:01,259 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:11:54,164 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:11:54,174 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:11:54,181 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:11:54,211 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:14:03,928 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:14:03,943 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:14:03,953 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:14:03,966 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:14:47,392 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.web.app:SimpleWebApp:0.0.1-SNAPSHOT @ C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\pom.xml.
+2016-08-10 23:14:47,559 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:14:47,572 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:14:47,577 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:14:47,582 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:14:47,587 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SimpleWebApp
+2016-08-10 23:14:47,587 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SimpleWebApp
+2016-08-10 23:14:47,599 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:14:48,807 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:14:48,817 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:14:48,822 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:14:48,832 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:18:09,430 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:18:09,440 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:18:09,447 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:18:09,457 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:19:12,345 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:19:12,355 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:19:12,360 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:19:12,370 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:19:30,017 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:19:30,030 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:19:30,037 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:19:30,050 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:20:05,480 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:20:05,490 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:20:05,500 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:20:05,510 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:20:27,226 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:20:27,243 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:20:27,251 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:20:27,263 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:20:39,658 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:20:39,668 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:20:39,676 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:20:39,688 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:21:05,191 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:21:05,199 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-08-10 23:21:05,206 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-08-10 23:21:05,216 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp\src\test\resources
+2016-08-10 23:21:56,262 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 23:22:03,035 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:22:03,042 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2016-08-10 23:22:12,287 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 23:22:17,782 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:22:17,792 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2016-08-10 23:22:25,447 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 23:22:32,539 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:22:32,554 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B eclipse:clean
+2016-08-10 23:22:46,918 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 23:22:52,790 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:22:52,803 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B eclipse:eclipse
+2016-08-10 23:23:08,541 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 23:23:18,106 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:23:18,121 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B compile
+2016-08-10 23:23:48,836 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 23:23:52,019 [Worker-25] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:23:52,044 [Worker-25] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2016-08-10 23:24:03,177 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:24:03,192 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2016-08-10 23:24:14,550 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:24:14,572 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2016-08-10 23:32:13,090 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:32:13,110 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2016-08-10 23:32:28,548 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:32:28,568 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2016-08-10 23:32:35,690 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 23:32:46,363 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:32:46,393 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B eclipse:clean
+2016-08-10 23:32:56,318 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 23:33:05,690 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:33:05,723 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B eclipse:eclipse
+2016-08-10 23:36:34,950 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:36:34,972 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2016-08-10 23:36:42,847 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 23:36:49,787 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:36:49,810 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B compile
+2016-08-10 23:36:56,807 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 23:36:59,393 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:36:59,410 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2016-08-10 23:37:14,679 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 23:37:24,441 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:37:24,459 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test-compile
+2016-08-10 23:37:37,700 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 23:37:48,990 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:37:49,020 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B eclipse:clean
+2016-08-10 23:37:59,074 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-10 23:38:05,674 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:38:05,702 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B eclipse:eclipse
+2016-08-10 23:41:09,896 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:41:09,896 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B compile
+2016-08-10 23:45:27,488 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-10 23:45:27,513 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B compile
+2016-08-11 23:59:06,473 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-08-11 23:59:16,597 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\DavidHusen\workspace2\MavenStart\SimpleWebApp
+2016-08-11 23:59:16,598 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B eclipse:clean

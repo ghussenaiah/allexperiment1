@@ -1,0 +1,458 @@
+!SESSION 2016-08-09 21:00:13.631 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.mylyn.git.ui 4 0 2016-08-09 21:00:18.547
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.git.ui [980]
+  Unresolved requirement: Require-Bundle: org.eclipse.egit.ui
+    -> Bundle-SymbolicName: org.eclipse.egit.ui; bundle-version="3.4.0.201406110918-r"; singleton:="true"
+       org.eclipse.egit.ui [1272]
+         No resolution report for the bundle.  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.eclipse.egit.ui [osgi.identity; osgi.identity="org.eclipse.egit.ui"; type="osgi.bundle"; version:Version="3.4.0.201406110918-r"; singleton:="true"] because it is exposed to package 'com.jcraft.jsch' from resources com.jcraft.jsch [osgi.identity; osgi.identity="com.jcraft.jsch"; type="osgi.bundle"; version:Version="0.1.51.v201410302000"] and com.jcraft.jsch [osgi.identity; osgi.identity="com.jcraft.jsch"; type="osgi.bundle"; version:Version="0.1.50.v201403120620"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.egit.ui [osgi.identity; osgi.identity="org.eclipse.egit.ui"; type="osgi.bundle"; version:Version="3.4.0.201406110918-r"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.jcraft.jsch)(&(bundle-version>=0.1.37)(!(bundle-version>=0.2.0))))
+     |
+    provide: osgi.wiring.bundle: com.jcraft.jsch
+  com.jcraft.jsch [osgi.identity; osgi.identity="com.jcraft.jsch"; type="osgi.bundle"; version:Version="0.1.51.v201410302000"]
+
+Chain 2:
+  org.eclipse.egit.ui [osgi.identity; osgi.identity="org.eclipse.egit.ui"; type="osgi.bundle"; version:Version="3.4.0.201406110918-r"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.eclipse.jsch.core)(&(bundle-version>=1.1.100)(!(bundle-version>=2.0.0))))
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="1.1.500.v20131112-1442"; osgi.wiring.bundle="org.eclipse.jsch.core"; singleton:="true"
+  org.eclipse.jsch.core [osgi.identity; osgi.identity="org.eclipse.jsch.core"; type="osgi.bundle"; version:Version="1.1.500.v20131112-1442"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.jcraft.jsch)(&(bundle-version>=0.1.50)(!(bundle-version>=1.0.0))))
+     |
+    provide: osgi.wiring.bundle: com.jcraft.jsch
+  com.jcraft.jsch [osgi.identity; osgi.identity="com.jcraft.jsch"; type="osgi.bundle"; version:Version="0.1.50.v201403120620"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.mylyn.ui 4 0 2016-08-09 21:00:18.731
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.egit.mylyn.ui [1271]
+  Unresolved requirement: Import-Package: org.eclipse.egit.ui.internal.synchronize.model; version="[3.4.0,3.5.0)"
+    -> Export-Package: org.eclipse.egit.ui.internal.synchronize.model; bundle-symbolic-name="org.eclipse.egit.ui"; bundle-version="3.4.0.201406110918-r"; version="3.4.0"; x-friends:="org.eclipse.egit.mylyn.ui"
+       org.eclipse.egit.ui [1272]
+         No resolution report for the bundle.  Unresolved requirement: Import-Package: org.eclipse.egit.ui; version="[3.4.0,3.5.0)"
+    -> Export-Package: org.eclipse.egit.ui; bundle-symbolic-name="org.eclipse.egit.ui"; bundle-version="3.4.0.201406110918-r"; version="3.4.0"; x-friends:="org.eclipse.egit.mylyn.ui"
+  Unresolved requirement: Import-Package: org.eclipse.egit.ui.internal.commit; version="[3.4.0,3.5.0)"
+    -> Export-Package: org.eclipse.egit.ui.internal.commit; bundle-symbolic-name="org.eclipse.egit.ui"; bundle-version="3.4.0.201406110918-r"; version="3.4.0"; x-friends:="org.eclipse.egit.mylyn.ui"
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.eclipse.egit.ui [osgi.identity; osgi.identity="org.eclipse.egit.ui"; type="osgi.bundle"; version:Version="3.4.0.201406110918-r"; singleton:="true"] because it is exposed to package 'com.jcraft.jsch' from resources com.jcraft.jsch [osgi.identity; osgi.identity="com.jcraft.jsch"; type="osgi.bundle"; version:Version="0.1.51.v201410302000"] and com.jcraft.jsch [osgi.identity; osgi.identity="com.jcraft.jsch"; type="osgi.bundle"; version:Version="0.1.50.v201403120620"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.egit.ui [osgi.identity; osgi.identity="org.eclipse.egit.ui"; type="osgi.bundle"; version:Version="3.4.0.201406110918-r"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.jcraft.jsch)(&(bundle-version>=0.1.37)(!(bundle-version>=0.2.0))))
+     |
+    provide: osgi.wiring.bundle: com.jcraft.jsch
+  com.jcraft.jsch [osgi.identity; osgi.identity="com.jcraft.jsch"; type="osgi.bundle"; version:Version="0.1.51.v201410302000"]
+
+Chain 2:
+  org.eclipse.egit.ui [osgi.identity; osgi.identity="org.eclipse.egit.ui"; type="osgi.bundle"; version:Version="3.4.0.201406110918-r"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.eclipse.jsch.core)(&(bundle-version>=1.1.100)(!(bundle-version>=2.0.0))))
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="1.1.500.v20131112-1442"; osgi.wiring.bundle="org.eclipse.jsch.core"; singleton:="true"
+  org.eclipse.jsch.core [osgi.identity; osgi.identity="org.eclipse.jsch.core"; type="osgi.bundle"; version:Version="1.1.500.v20131112-1442"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.jcraft.jsch)(&(bundle-version>=0.1.50)(!(bundle-version>=1.0.0))))
+     |
+    provide: osgi.wiring.bundle: com.jcraft.jsch
+  com.jcraft.jsch [osgi.identity; osgi.identity="com.jcraft.jsch"; type="osgi.bundle"; version:Version="0.1.50.v201403120620"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.egit.ui 4 0 2016-08-09 21:00:18.784
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.egit.ui [1272]
+  Bundle was not resolved because of a uses contraint violation.
+  org.osgi.service.resolver.ResolutionException: Uses constraint violation. Unable to resolve resource org.eclipse.egit.ui [osgi.identity; osgi.identity="org.eclipse.egit.ui"; type="osgi.bundle"; version:Version="3.4.0.201406110918-r"; singleton:="true"] because it is exposed to package 'com.jcraft.jsch' from resources com.jcraft.jsch [osgi.identity; osgi.identity="com.jcraft.jsch"; type="osgi.bundle"; version:Version="0.1.51.v201410302000"] and com.jcraft.jsch [osgi.identity; osgi.identity="com.jcraft.jsch"; type="osgi.bundle"; version:Version="0.1.50.v201403120620"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.egit.ui [osgi.identity; osgi.identity="org.eclipse.egit.ui"; type="osgi.bundle"; version:Version="3.4.0.201406110918-r"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.jcraft.jsch)(&(bundle-version>=0.1.37)(!(bundle-version>=0.2.0))))
+     |
+    provide: osgi.wiring.bundle: com.jcraft.jsch
+  com.jcraft.jsch [osgi.identity; osgi.identity="com.jcraft.jsch"; type="osgi.bundle"; version:Version="0.1.51.v201410302000"]
+
+Chain 2:
+  org.eclipse.egit.ui [osgi.identity; osgi.identity="org.eclipse.egit.ui"; type="osgi.bundle"; version:Version="3.4.0.201406110918-r"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.eclipse.jsch.core)(&(bundle-version>=1.1.100)(!(bundle-version>=2.0.0))))
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="1.1.500.v20131112-1442"; osgi.wiring.bundle="org.eclipse.jsch.core"; singleton:="true"
+  org.eclipse.jsch.core [osgi.identity; osgi.identity="org.eclipse.jsch.core"; type="osgi.bundle"; version:Version="1.1.500.v20131112-1442"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.jcraft.jsch)(&(bundle-version>=0.1.50)(!(bundle-version>=1.0.0))))
+     |
+    provide: osgi.wiring.bundle: com.jcraft.jsch
+  com.jcraft.jsch [osgi.identity; osgi.identity="com.jcraft.jsch"; type="osgi.bundle"; version:Version="0.1.50.v201403120620"]
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:29:13.378
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:29:14.551
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:29:15.470
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:29:17.707
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:29:18.921
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:29:19.786
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:29:20.773
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:29:21.937
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:29:22.798
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:29:25.029
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:29:25.956
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:29:27.077
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:29:28.010
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:29:29.010
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:29:30.065
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:29:31.117
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:29:32.185
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:29:33.168
+!MESSAGE Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:31:19.771
+!MESSAGE The POM for com.bcv.kagami:kagami-session:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:31:19.785
+!MESSAGE The POM for com.bcv.kagami:kagami-commons:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:31:19.801
+!MESSAGE The POM for com.bcv.kagami:kagami-transaction:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:32:33.883
+!MESSAGE The POM for com.bcv.kagami:kagami-session:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:32:33.896
+!MESSAGE The POM for com.bcv.kagami:kagami-commons:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:32:33.914
+!MESSAGE The POM for com.bcv.kagami:kagami-transaction:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:32:37.381
+!MESSAGE The POM for com.bcv.kagami:kagami-session:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:32:37.394
+!MESSAGE The POM for com.bcv.kagami:kagami-commons:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:32:37.411
+!MESSAGE The POM for com.bcv.kagami:kagami-transaction:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:51:17.812
+!MESSAGE The POM for com.bcv.kagami:kagami-drool-drl:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:51:30.376
+!MESSAGE The POM for com.bcv.kagami:kagami-drool-drl:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:51:43.980
+!MESSAGE The POM for com.bcv.kagami:kagami-ui-generator:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:51:43.988
+!MESSAGE The POM for com.bcv.kagami:kagami-ui-generator:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:51:43.995
+!MESSAGE The POM for com.bcv.kagami:kagami-commons:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:51:44.012
+!MESSAGE The POM for com.bcv.kagami:kagami-commons:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:51:44.018
+!MESSAGE The POM for com.bcv.kagami:kagami-verb:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:51:44.026
+!MESSAGE The POM for com.bcv.kagami:kagami-verb:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:51:58.845
+!MESSAGE The POM for com.bcv.kagami:kagami-utilities:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:51:58.849
+!MESSAGE The POM for com.bcv.kagami:kagami-utilities:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:51:58.859
+!MESSAGE The POM for com.bcv.kagami:kagami-design:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:51:58.872
+!MESSAGE The POM for com.bcv.kagami:kagami-design:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:51:58.878
+!MESSAGE The POM for com.kagami.role:RoleManagement:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:51:58.893
+!MESSAGE The POM for com.kagami.role:RoleManagement:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:51:58.898
+!MESSAGE The POM for com.kagami.user:UserRoles:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:51:58.908
+!MESSAGE The POM for com.kagami.user:UserRoles:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:54:16.987
+!MESSAGE The POM for com.bcv.kagami:kagami-session:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:54:17.006
+!MESSAGE The POM for com.bcv.kagami:kagami-transaction:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:54:46.077
+!MESSAGE The POM for com.bcv.kagami:kagami-drool-drl:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:54:46.371
+!MESSAGE The POM for com.bcv.kagami:kagami-ui-generator:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:54:46.389
+!MESSAGE The POM for com.bcv.kagami:kagami-commons:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:54:46.405
+!MESSAGE The POM for com.bcv.kagami:kagami-verb:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:54:46.507
+!MESSAGE The POM for com.bcv.kagami:kagami-utilities:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:54:46.518
+!MESSAGE The POM for com.bcv.kagami:kagami-design:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:54:46.533
+!MESSAGE The POM for com.kagami.role:RoleManagement:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:54:46.548
+!MESSAGE The POM for com.kagami.user:UserRoles:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:54:50.309
+!MESSAGE The POM for com.bcv.kagami:kagami-drool-drl:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:54:50.611
+!MESSAGE The POM for com.bcv.kagami:kagami-ui-generator:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:54:50.626
+!MESSAGE The POM for com.bcv.kagami:kagami-commons:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:54:50.639
+!MESSAGE The POM for com.bcv.kagami:kagami-verb:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:54:50.747
+!MESSAGE The POM for com.bcv.kagami:kagami-utilities:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:54:50.759
+!MESSAGE The POM for com.bcv.kagami:kagami-design:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:54:50.777
+!MESSAGE The POM for com.kagami.role:RoleManagement:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:54:50.792
+!MESSAGE The POM for com.kagami.user:UserRoles:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:26.487
+!MESSAGE The POM for com.bcv.kagami:kagami-drool-drl:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:26.816
+!MESSAGE The POM for com.bcv.kagami:kagami-ui-generator:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:26.834
+!MESSAGE The POM for com.bcv.kagami:kagami-commons:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:26.846
+!MESSAGE The POM for com.bcv.kagami:kagami-verb:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:26.943
+!MESSAGE The POM for com.bcv.kagami:kagami-utilities:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:26.956
+!MESSAGE The POM for com.bcv.kagami:kagami-design:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:26.973
+!MESSAGE The POM for com.kagami.role:RoleManagement:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:26.984
+!MESSAGE The POM for com.kagami.user:UserRoles:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:32.555
+!MESSAGE The POM for com.bcv.kagami:kagami-session:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:32.602
+!MESSAGE The POM for com.bcv.kagami:kagami-transaction:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:33.284
+!MESSAGE The POM for com.bcv.kagami:kagami-drool-drl:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:33.557
+!MESSAGE The POM for com.bcv.kagami:kagami-ui-generator:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:33.576
+!MESSAGE The POM for com.bcv.kagami:kagami-verb:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:33.740
+!MESSAGE The POM for com.bcv.kagami:kagami-utilities:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:33.755
+!MESSAGE The POM for com.bcv.kagami:kagami-design:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:33.777
+!MESSAGE The POM for com.kagami.role:RoleManagement:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:33.793
+!MESSAGE The POM for com.kagami.user:UserRoles:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:34.528
+!MESSAGE The POM for com.bcv.kagami:kagami-session:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:34.540
+!MESSAGE The POM for com.bcv.kagami:kagami-commons:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:34.557
+!MESSAGE The POM for com.bcv.kagami:kagami-transaction:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:35.952
+!MESSAGE The POM for com.bcv.kagami:kagami-drool-drl:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:36.218
+!MESSAGE The POM for com.bcv.kagami:kagami-ui-generator:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:36.229
+!MESSAGE The POM for com.bcv.kagami:kagami-commons:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:36.245
+!MESSAGE The POM for com.bcv.kagami:kagami-verb:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:36.353
+!MESSAGE The POM for com.bcv.kagami:kagami-utilities:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:36.363
+!MESSAGE The POM for com.bcv.kagami:kagami-design:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:36.374
+!MESSAGE The POM for com.kagami.role:RoleManagement:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:36.388
+!MESSAGE The POM for com.kagami.user:UserRoles:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:55:59.996
+!MESSAGE The POM for com.bcv.kagami:kagami-session:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:00.021
+!MESSAGE The POM for com.bcv.kagami:kagami-transaction:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:00.573
+!MESSAGE The POM for com.bcv.kagami:kagami-drool-drl:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:00.719
+!MESSAGE The POM for com.bcv.kagami:kagami-ui-generator:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:00.746
+!MESSAGE The POM for com.bcv.kagami:kagami-verb:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:00.827
+!MESSAGE The POM for com.bcv.kagami:kagami-utilities:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:00.839
+!MESSAGE The POM for com.bcv.kagami:kagami-design:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:00.850
+!MESSAGE The POM for com.kagami.role:RoleManagement:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:00.866
+!MESSAGE The POM for com.kagami.user:UserRoles:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:04.512
+!MESSAGE The POM for com.bcv.kagami:kagami-drool-drl:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:04.794
+!MESSAGE The POM for com.bcv.kagami:kagami-ui-generator:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:05.404
+!MESSAGE The POM for com.bcv.kagami:kagami-verb:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:05.487
+!MESSAGE The POM for com.bcv.kagami:kagami-utilities:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:05.501
+!MESSAGE The POM for com.bcv.kagami:kagami-design:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:05.517
+!MESSAGE The POM for com.kagami.role:RoleManagement:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:05.527
+!MESSAGE The POM for com.kagami.user:UserRoles:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:32.044
+!MESSAGE The POM for com.bcv.kagami:kagami-drool-drl:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:32.342
+!MESSAGE The POM for com.bcv.kagami:kagami-ui-generator:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:33.002
+!MESSAGE The POM for com.bcv.kagami:kagami-verb:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:33.110
+!MESSAGE The POM for com.bcv.kagami:kagami-utilities:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:33.127
+!MESSAGE The POM for com.bcv.kagami:kagami-design:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:33.144
+!MESSAGE The POM for com.kagami.role:RoleManagement:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:33.156
+!MESSAGE The POM for com.kagami.user:UserRoles:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:35.207
+!MESSAGE The POM for com.bcv.kagami:kagami-session:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-09 21:56:35.952
+!MESSAGE The POM for com.bcv.kagami:kagami-transaction:jar:1.0-SNAPSHOT is missing, no dependency information available

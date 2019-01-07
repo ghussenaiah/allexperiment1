@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+
+<script>
+function ValidateContactForm5()
+{
+    var Np12 = document.ContactForm5.rfpcomm;
+    var Rd2 = document.ContactForm5.prodevhigh;
+    var Rdb2 = document.ContactForm5.keyevent;
+    var Rev12 = document.ContactForm5.innovation;
+   
+  
+    if (Np12.value == "")
+    {
+        window.alert("Please enter RFP comment.");
+        Np12.focus();
+        return false;
+    }
+    if (Rd2.value == "")
+    {
+        window.alert("Please enter product Highlights.");
+        Rd2.focus();
+        return false;
+    }
+    if (Rdb2.value == "")
+    {
+        window.alert("Please enter Key Events.");
+        Rdb2.focus();
+        return false;
+    }
+    if (Rev12.value == "")
+    {
+        window.alert("Please enter Innovations");
+        Rev12.focus();
+        return false;
+    }
+   
+    
+   return true;
+   
+}
+</script>
+</head>
+<body bgcolor="#7FFFD4">
+
+
+<form action="api/mi4/mi5" method="POST" name="ContactForm5" onsubmit="return ValidateContactForm5();">
+       <fieldset>
+          <legend><strong>MileStone Details</strong></legend>
+        
+          
+ RFP Comment :                     ​<textarea id="txtArea" rows="5" cols="20" name=rfpcomm></textarea><br/><br/>
+ Product development Highlights :  ​<textarea id="txtArea1" rows="5" cols="20" name=prodevhigh></textarea><br/><br/>
+ Key Events :                      ​<textarea id="txtArea2" rows="5" cols="20" name=keyevent></textarea><br/><br/>
+ Innovation :​                      <textarea id="txtArea3" rows="5" cols="20" name=innovation></textarea><br/><br/>        
+      <input type=submit value="submit"/>
+  <input type="reset" value="clear" >
+             
+             
+           
+      
+       </fieldset>
+    </form>
+</body>
+</html>

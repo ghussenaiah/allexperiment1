@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <servlet-name>InitServlet</servlet-name>
+    <servlet-class>com.mini.util.InitServlet</servlet-class>
+    <init-param>
+      <param-name>config</param-name>
+      <param-value>/WEB-INF/config/system.properties</param-value>
+    </init-param>
+    <load-on-startup>0</load-on-startup>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginAction</servlet-name>
+    <servlet-class>com.mini.actions.LoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogOutAction</servlet-name>
+    <servlet-class>com.mini.actions.LogOutAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangePasswordAction</servlet-name>
+    <servlet-class>com.mini.actions.ChangePasswordAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeQuestion</servlet-name>
+    <servlet-class>com.mini.actions.ChangeQuestion</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PostQueryAction</servlet-name>
+    <servlet-class>com.mini.actions.PostQueryAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterAction</servlet-name>
+    <servlet-class>com.mini.actions.RegisterAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckAvailabilityAction</servlet-name>
+    <servlet-class>com.mini.actions.CheckAvailabilityAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewQuriesAction</servlet-name>
+    <servlet-class>com.mini.actions.ViewQuriesAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SolutionAction</servlet-name>
+    <servlet-class>com.mini.actions.SolutionAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PostSolutionAction</servlet-name>
+    <servlet-class>com.mini.actions.PostSolutionAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewQueryStatusAction</servlet-name>
+    <servlet-class>com.mini.actions.ViewQueryStatusAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserQuerySolutionAction</servlet-name>
+    <servlet-class>com.mini.actions.UserQuerySolutionAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewProfileAction</servlet-name>
+    <servlet-class>com.mini.actions.ViewProfileAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateUserProfileAction</servlet-name>
+    <servlet-class>com.mini.actions.UpdateUserProfileAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateProfilesAction</servlet-name>
+    <servlet-class>com.mini.actions.UpdateProfilesAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertAccountAction</servlet-name>
+    <servlet-class>com.mini.actions.InsertAccountAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RetreveAllAccountsAction</servlet-name>
+    <servlet-class>com.mini.actions.RetreveAllAccountsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sss</servlet-name>
+    <servlet-class>com.mini.actions.sss</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAccountAction</servlet-name>
+    <servlet-class>com.mini.actions.GetAccountAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAccountDetailsBasedOnUsernameAction</servlet-name>
+    <servlet-class>com.mini.actions.GetAccountDetailsBasedOnUsernameAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetSessionAction</servlet-name>
+    <servlet-class>com.mini.actions.GetSessionAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeterministicAction</servlet-name>
+    <servlet-class>com.mini.actions.DeterministicAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EmptyQuerySetAction</servlet-name>
+    <servlet-class>com.mini.actions.EmptyQuerySetAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NoMatchedRequestAction</servlet-name>
+    <servlet-class>com.mini.actions.NoMatchedRequestAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NonDeterministicAction</servlet-name>
+    <servlet-class>com.mini.actions.NonDeterministicAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadAction</servlet-name>
+    <servlet-class>com.mini.actions.UploadAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GettingKeyAction</servlet-name>
+    <servlet-class>com.mini.actions.GettingKeyAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetFileAction</servlet-name>
+    <servlet-class>com.mini.actions.GetFileAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileDeleteAction</servlet-name>
+    <servlet-class>com.mini.actions.FileDeleteAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MonitoringDetailsAction</servlet-name>
+    <servlet-class>com.mini.actions.MonitoringDetailsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BlockDetailsAction</servlet-name>
+    <servlet-class>com.mini.actions.BlockDetailsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServerDetailsAction</servlet-name>
+    <servlet-class>com.mini.actions.ServerDetailsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetBinaryAction</servlet-name>
+    <servlet-class>com.mini.actions.GetBinaryAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sanjay</servlet-name>
+    <servlet-class>com.mini.actions.sanjay</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PDFServlet</servlet-name>
+    <servlet-class>PDFServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WritePdfAction</servlet-name>
+    <servlet-class>com.mini.actions.WritePdfAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExceptionPdfAction</servlet-name>
+    <servlet-class>com.mini.actions.ExceptionPdfAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WordResultAction</servlet-name>
+    <servlet-class>com.mini.actions.WordResultAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WriteDocAction</servlet-name>
+    <servlet-class>com.mini.actions.WriteDocAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RetreveAllFilesFromServerAction</servlet-name>
+    <servlet-class>com.mini.actions.RetreveAllFilesFromServerAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoctorRegisterAction</servlet-name>
+    <servlet-class>com.mini.actions.DoctorRegisterAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewDocProfileAction</servlet-name>
+    <servlet-class>com.mini.actions.ViewDocProfileAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PatientRegisterAction</servlet-name>
+    <servlet-class>com.mini.actions.PatientRegisterAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SeeAllDocsAction</servlet-name>
+    <servlet-class>com.mini.actions.SeeAllDocsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertPatientRequestAction</servlet-name>
+    <servlet-class>com.mini.actions.InsertPatientRequestAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PatientRequestDetailsAction</servlet-name>
+    <servlet-class>com.mini.actions.PatientRequestDetailsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WritePrisAction</servlet-name>
+    <servlet-class>com.mini.actions.WritePrisAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CompanyRegisterAction</servlet-name>
+    <servlet-class>com.mini.actions.CompanyRegisterAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PharmacyRegisterAction</servlet-name>
+    <servlet-class>com.mini.actions.PharmacyRegisterAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddDrugCompanyAction</servlet-name>
+    <servlet-class>com.mini.actions.AddDrugCompanyAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertDrugAction</servlet-name>
+    <servlet-class>InsertDrugAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertDrugActionnew</servlet-name>
+    <servlet-class>com.mini.actions.InsertDrugActionnew</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddContractAction</servlet-name>
+    <servlet-class>com.mini.actions.AddContractAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertContractAction</servlet-name>
+    <servlet-class>InsertContractAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertContractsAction</servlet-name>
+    <servlet-class>com.mini.actions.InsertContractsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ContractDetailsAction</servlet-name>
+    <servlet-class>com.mini.actions.ContractDetailsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ContractAction</servlet-name>
+    <servlet-class>com.mini.actions.ContractAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertPrisAction</servlet-name>
+    <servlet-class>com.mini.actions.InsertPrisAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SeePssnAction</servlet-name>
+    <servlet-class>com.mini.actions.SeePssnAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewPrisAction</servlet-name>
+    <servlet-class>com.mini.actions.ViewPrisAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteAction</servlet-name>
+    <servlet-class>com.mini.actions.DeleteAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeletePatientAction</servlet-name>
+    <servlet-class>com.mini.actions.DeletePatientAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteDoctorAction</servlet-name>
+    <servlet-class>com.mini.actions.DeleteDoctorAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeletePrisAction</servlet-name>
+    <servlet-class>com.mini.actions.DeletePrisAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WRegisterAction</servlet-name>
+    <servlet-class>com.mini.actions.WRegisterAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConstructTreeAction</servlet-name>
+    <servlet-class>com.mini.actions.ConstructTreeAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConstructGroupTreeAction</servlet-name>
+    <servlet-class>com.mini.actions.ConstructGroupTreeAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConstructVTreeAction</servlet-name>
+    <servlet-class>com.mini.actions.ConstructVTreeAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConstructGPTreeAction</servlet-name>
+    <servlet-class>com.mini.actions.ConstructGPTreeAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConstructVTreeAction2</servlet-name>
+    <servlet-class>com.mini.actions.ConstructVTreeAction2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Mkey</servlet-name>
+    <servlet-class>com.mini.actions.Mkey</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginAction</servlet-name>
+    <url-pattern>/LoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogOutAction</servlet-name>
+    <url-pattern>/LogOutAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePasswordAction</servlet-name>
+    <url-pattern>/ChangePasswordAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeQuestion</servlet-name>
+    <url-pattern>/ChangeQuestion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostQueryAction</servlet-name>
+    <url-pattern>/PostQueryAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterAction</servlet-name>
+    <url-pattern>/RegisterAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckAvailabilityAction</servlet-name>
+    <url-pattern>/CheckAvailabilityAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewQuriesAction</servlet-name>
+    <url-pattern>/ViewQuriesAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SolutionAction</servlet-name>
+    <url-pattern>/SolutionAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostSolutionAction</servlet-name>
+    <url-pattern>/PostSolutionAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewQueryStatusAction</servlet-name>
+    <url-pattern>/ViewQueryStatusAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserQuerySolutionAction</servlet-name>
+    <url-pattern>/UserQuerySolutionAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewProfileAction</servlet-name>
+    <url-pattern>/ViewProfileAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUserProfileAction</servlet-name>
+    <url-pattern>/UpdateUserProfileAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateProfilesAction</servlet-name>
+    <url-pattern>/UpdateProfilesAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertAccountAction</servlet-name>
+    <url-pattern>/InsertAccountAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RetreveAllAccountsAction</servlet-name>
+    <url-pattern>/RetreveAllAccountsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sss</servlet-name>
+    <url-pattern>/servlet/sss</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAccountAction</servlet-name>
+    <url-pattern>/GetAccountAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAccountDetailsBasedOnUsernameAction</servlet-name>
+    <url-pattern>/GetAccountDetailsBasedOnUsernameAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSessionAction</servlet-name>
+    <url-pattern>/GetSessionAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeterministicAction</servlet-name>
+    <url-pattern>/DeterministicAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmptyQuerySetAction</servlet-name>
+    <url-pattern>/EmptyQuerySetAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoMatchedRequestAction</servlet-name>
+    <url-pattern>/NoMatchedRequestAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NonDeterministicAction</servlet-name>
+    <url-pattern>/NonDeterministicAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadAction</servlet-name>
+    <url-pattern>/UploadAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GettingKeyAction</servlet-name>
+    <url-pattern>/GettingKeyAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetFileAction</servlet-name>
+    <url-pattern>/GetFileAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileDeleteAction</servlet-name>
+    <url-pattern>/FileDeleteAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MonitoringDetailsAction</servlet-name>
+    <url-pattern>/MonitoringDetailsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BlockDetailsAction</servlet-name>
+    <url-pattern>/BlockDetailsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServerDetailsAction</servlet-name>
+    <url-pattern>/ServerDetailsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetBinaryAction</servlet-name>
+    <url-pattern>/GetBinaryAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sanjay</servlet-name>
+    <url-pattern>/sanjay</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PDFServlet</servlet-name>
+    <url-pattern>/PDFServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WritePdfAction</servlet-name>
+    <url-pattern>/WritePdfAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExceptionPdfAction</servlet-name>
+    <url-pattern>/ExceptionPdfAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WordResultAction</servlet-name>
+    <url-pattern>/WordResultAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WriteDocAction</servlet-name>
+    <url-pattern>/WriteDocAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RetreveAllFilesFromServerAction</servlet-name>
+    <url-pattern>/RetreveAllFilesFromServerAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoctorRegisterAction</servlet-name>
+    <url-pattern>/DoctorRegisterAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewDocProfileAction</servlet-name>
+    <url-pattern>/ViewDocProfileAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PatientRegisterAction</servlet-name>
+    <url-pattern>/PatientRegisterAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SeeAllDocsAction</servlet-name>
+    <url-pattern>/SeeAllDocsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertPatientRequestAction</servlet-name>
+    <url-pattern>/InsertPatientRequestAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PatientRequestDetailsAction</servlet-name>
+    <url-pattern>/PatientRequestDetailsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WritePrisAction</servlet-name>
+    <url-pattern>/WritePrisAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CompanyRegisterAction</servlet-name>
+    <url-pattern>/CompanyRegisterAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PharmacyRegisterAction</servlet-name>
+    <url-pattern>/PharmacyRegisterAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddDrugCompanyAction</servlet-name>
+    <url-pattern>/AddDrugCompanyAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertDrugAction</servlet-name>
+    <url-pattern>/InsertDrugAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertDrugActionnew</servlet-name>
+    <url-pattern>/InsertDrugActionnew</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddContractAction</servlet-name>
+    <url-pattern>/AddContractAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertContractAction</servlet-name>
+    <url-pattern>/InsertContractAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertContractsAction</servlet-name>
+    <url-pattern>/InsertContractsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContractDetailsAction</servlet-name>
+    <url-pattern>/ContractDetailsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContractAction</servlet-name>
+    <url-pattern>/ContractAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertPrisAction</servlet-name>
+    <url-pattern>/InsertPrisAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SeePssnAction</servlet-name>
+    <url-pattern>/SeePssnAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewPrisAction</servlet-name>
+    <url-pattern>/ViewPrisAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteAction</servlet-name>
+    <url-pattern>/DeleteAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletePatientAction</servlet-name>
+    <url-pattern>/DeletePatientAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteDoctorAction</servlet-name>
+    <url-pattern>/DeleteDoctorAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletePrisAction</servlet-name>
+    <url-pattern>/DeletePrisAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WRegisterAction</servlet-name>
+    <url-pattern>/WRegisterAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConstructTreeAction</servlet-name>
+    <url-pattern>/ConstructTreeAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConstructGroupTreeAction</servlet-name>
+    <url-pattern>/ConstructGroupTreeAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConstructVTreeAction</servlet-name>
+    <url-pattern>/ConstructVTreeAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConstructGPTreeAction</servlet-name>
+    <url-pattern>/ConstructGPTreeAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConstructVTreeAction2</servlet-name>
+    <url-pattern>/ConstructVTreeAction2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Mkey</servlet-name>
+    <url-pattern>/Mkey</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>LoginForm.jsp</welcome-file>
+  </welcome-file-list>
+  <login-config>
+    <auth-method>BASIC</auth-method>
+  </login-config>
+</web-app>

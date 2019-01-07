@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+
+<script>
+function ValidateContactForm3()
+{
+    var Np1 = document.ContactForm3.npi;
+    var Rd = document.ContactForm3.rd;
+    var Rdb = document.ContactForm3.rdb;
+    var Rev1 = document.ContactForm3.rev1;
+    var Rev2 = document.ContactForm3.rev2;
+  
+    if (Np1.value == "")
+    {
+        window.alert("Please enter Npi Revenue.");
+        Np1.focus();
+        return false;
+    }
+    if (Rd.value == "")
+    {
+        window.alert("Please enter rd.");
+        Rd.focus();
+        return false;
+    }
+    if (Rdb.value == "")
+    {
+        window.alert("Please enter rd budget.");
+        Rdb.focus();
+        return false;
+    }
+    if (Rev1.value == "")
+    {
+        window.alert("Please enter 2016 revenue.");
+        Rev1.focus();
+        return false;
+    }
+    if (Rev2.value == "")
+    {
+        window.alert("Please enter 2017 revenue.");
+        Rev2.focus();
+        return false;
+    }
+    
+    
+   return true;
+   
+}
+</script>
+</head>
+<body bgcolor="#7FFFD4">
+
+<form action="api/r4/r5" method="POST" name="ContactForm3" onsubmit="return ValidateContactForm3();">
+ <fieldset>
+          <legend><strong>Revenue Details</strong></legend>
+          <p>
+   NPI Revenue (in $) :    <input type="text" name="npi" ><br/><br/>
+    R And D Budget (in $)   :  <input type="text" name="rd" ><br/><br/>
+      R And D Budget Actual (in $) : <input type="text" name="rdb" ><br/><br/>
+       2016 Revenue  :      <input type="text" name="rev1" ><br/><br/>
+         2017 Revenue   :     <input type="text" name="rev2" ><br/><br/>
+        <input type="submit" value="Submit"  />
+        <input type="reset" value="clear" >
+       
+         
+          </p>
+       </fieldset>
+    </form>
+
+</body>
+</html>

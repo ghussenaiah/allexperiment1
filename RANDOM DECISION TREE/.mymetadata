@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="RANDOM DECISION TREE"
+  id="myeclipse.1336473909656"
+  context-root="/sample"
+  j2ee-spec="5.0"
+  archive="RANDOM DECISION TREE.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

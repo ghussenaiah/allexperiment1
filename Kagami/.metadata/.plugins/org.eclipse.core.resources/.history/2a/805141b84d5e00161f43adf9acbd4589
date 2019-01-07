@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="kagami-code-generator">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="kagami-drool-drl-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kagami-drool-drl/kagami-drool-drl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kagami-ui-generator-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kagami-ui-generator/kagami-ui-generator">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kagami-commons-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kagami-commons/kagami-commons">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kagami-verb-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kagami-verb/kagami-verb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kagami-utilities-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kagami-utilities/kagami-utilities">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kagami-design-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kagami-design/kagami-design">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="RoleManagement-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/RoleManagement/RoleManagement">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="UserRoles-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/UserRoles/UserRoles">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="kagami-code-generator"/>
+        <property name="java-output-path" value="/kagami-code-generator/target/classes"/>
+    </wb-module>
+</project-modules>

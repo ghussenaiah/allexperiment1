@@ -1,0 +1,1 @@
+java -cp SimpleApp-0.0.1-SNAPSHOT.jar com.first.maven.SimpleApp.Welcome
